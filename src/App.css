@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opcjonalnie możesz dodać własne style globalne, np. font */
+body {
+  @apply font-sans;
+}
