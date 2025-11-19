@@ -26,7 +26,7 @@ export default function Contact() {
             <div>
               <h3 className="font-semibold text-lg text-orange-400">{t('contact_email_label')}</h3>
               <a href="mailto:info@tombuko-construction.nl" className="text-xl hover:text-white/80 transition-colors">
-                info@tombuko-construction.nl
+                tb.construction1980@gmail.nl
               </a>
             </div>
             <div>
