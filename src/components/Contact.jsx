@@ -12,7 +12,10 @@ export default function Contact() {
           <h2 className="text-4xl font-bold text-blueDark">{t('contact_title')}</h2>
           <p className="text-xl text-grayMedium mt-2">{t('contact_subtitle')}</p>
         </div>
+
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 bg-gradient-hydraulic text-white p-8 md:p-12 rounded-3xl shadow-2xl">
+
+          {/* Lewa część */}
           <div className="space-y-6">
             <div>
               <h3 className="font-semibold text-lg text-orange-400">{t('contact_phone_label')}</h3>
@@ -31,26 +34,62 @@ export default function Contact() {
               <p className="text-xl">{t('contact_area_value')}</p>
             </div>
           </div>
-          <form className="space-y-4">
+
+          {/* Formularz Web3Forms */}
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            className="space-y-4"
+          >
             <input 
-              type="text" 
-              placeholder={t('contact_form_name')} 
-              className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent focus:border-white focus:bg-white/30 outline-none" 
+              type="hidden" 
+              name="access_key" 
+              value="3b685d46-9afe-42e5-bd9f-b403a8e044ab" 
             />
-            <input 
-              type="tel" 
-              placeholder={t('contact_form_phone')} 
-              className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent focus:border-white focus:bg-white/30 outline-none" 
+
+            <input
+              type="text"
+              name="name"
+              placeholder={t('contact_form_name')}
+              required
+              className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent
+                         focus:border-white focus:bg-white/30 outline-none"
             />
-            <textarea 
-              placeholder={t('contact_form_message')} 
-              rows="4" 
-              className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent focus:border-white focus:bg-white/30 outline-none"
+
+            <input
+              type="email"
+              name="email"
+              placeholder={t('contact_form_phone')}
+              required
+              className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent
+                         focus:border-white focus:bg-white/30 outline-none"
             />
-            <button className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors">
+            
+            <input
+  type="email"
+  name="email"
+  placeholder={t('contact_form_email')}   // <-- poprawiony placeholder
+  required
+  className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent
+             focus:border-white focus:bg-white/30 outline-none"
+/>
+            <textarea
+              name="message"
+              placeholder={t('contact_form_message')}
+              rows="4"
+              required
+              className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent
+                         focus:border-white focus:bg-white/30 outline-none"
+            />
+
+            <button
+              type="submit"
+              className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
+            >
               {t('contact_form_submit')}
             </button>
           </form>
+
         </div>
       </div>
     </section>
