@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blueDark">{t('contact_title')}</h2>
-          <p className="text-xl text-grayMedium mt-2">{t('contact_subtitle')}</p>
+          <h3 className="text-xl text-grayMedium mt-2">{t('contact_subtitle')}</h3>
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 bg-gradient-hydraulic text-white p-8 md:p-12 rounded-3xl shadow-2xl">

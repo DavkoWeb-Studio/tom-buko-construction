@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Together from "./components/Together";
 import StatsCounter from "./components/StatsCounter";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -13,6 +14,7 @@ export default function App() {
       <Hero />
       <StatsCounter />
       <About />
+      <Together />
       <Services />
       <Contact />
       <Footer />
