@@ -44,9 +44,10 @@ export default function Contact() {
             <input 
               type="hidden" 
               name="access_key" 
-              value="3b685d46-9afe-42e5-bd9f-b403a8e044ab" 
+              value="3b685d46-9afe-42e5-bd9f-b403a8e044ab"
             />
 
+            {/* Imię */}
             <input
               type="text"
               name="name"
@@ -56,23 +57,17 @@ export default function Contact() {
                          focus:border-white focus:bg-white/30 outline-none"
             />
 
+            {/* Email */}
             <input
               type="email"
               name="email"
-              placeholder={t('contact_form_phone')}
+              placeholder={t('contact_form_email')}
               required
               className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent
                          focus:border-white focus:bg-white/30 outline-none"
             />
-            
-            <input
-  type="email"
-  name="email"
-  placeholder={t('contact_form_email')}   // <-- poprawiony placeholder
-  required
-  className="w-full p-3 rounded-lg bg-white/20 placeholder-gray-200 border-2 border-transparent
-             focus:border-white focus:bg-white/30 outline-none"
-/>
+
+            {/* Wiadomość */}
             <textarea
               name="message"
               placeholder={t('contact_form_message')}

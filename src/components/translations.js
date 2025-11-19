@@ -65,9 +65,13 @@ export const resources = {
       contact_phone_label: 'Telefon',
       contact_email_label: 'Email',
       contact_area_label: 'Obszar działania',
-      contact_area_value: 'Cała Holandia (projekty B2B / ZZP)',
+      contact_area_value: 'Haga i okolice (projekty B2B / ZZP)',
       contact_form_name: 'Imię i nazwisko / Firma',
       contact_form_phone: 'Numer telefonu',
+
+      // 👉 DODANE
+      contact_form_email: 'Adres e-mail',
+
       contact_form_message: 'Krótki opis projektu...',
       contact_form_submit: 'Wyślij zapytanie',
 
@@ -84,6 +88,7 @@ export const resources = {
       footer_copyright: 'Tom-Buko Construction. Wszelkie prawa zastrzeżone.',
     }
   },
+
   en: {
     translation: {
       // Navbar
@@ -149,9 +154,13 @@ export const resources = {
       contact_phone_label: 'Phone',
       contact_email_label: 'Email',
       contact_area_label: 'Service area',
-      contact_area_value: 'All of the Netherlands (ZZP / B2B projects)',
+      contact_area_value: 'Den Haag en Zuid Holland (ZZP / B2B projects)',
       contact_form_name: 'Name / Company',
       contact_form_phone: 'Phone number',
+
+      // 👉 DODANE
+      contact_form_email: 'Email address',
+
       contact_form_message: 'Brief project description...',
       contact_form_submit: 'Send inquiry',
 
@@ -168,6 +177,7 @@ export const resources = {
       footer_copyright: 'Tom-Buko Construction. All rights reserved.',
     }
   },
+
   nl: {
     translation: {
       // Navbar
@@ -233,9 +243,13 @@ export const resources = {
       contact_phone_label: 'Telefoon',
       contact_email_label: 'E-mail',
       contact_area_label: 'Werkgebied',
-      contact_area_value: 'Heel Nederland (ZZP / B2B projecten)',
+      contact_area_value: 'Zuid Holland(ZZP / B2B projecten)',
       contact_form_name: 'Naam / Bedrijf',
       contact_form_phone: 'Telefoonnummer',
+
+      // 👉 DODANE
+      contact_form_email: 'E-mailadres',
+
       contact_form_message: 'Korte projectbeschrijving...',
       contact_form_submit: 'Verzend aanvraag',
 
