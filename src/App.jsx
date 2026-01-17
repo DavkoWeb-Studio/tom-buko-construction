@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Together from "./components/Together";
 import StatsCounter from "./components/StatsCounter";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
