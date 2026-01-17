@@ -1,6 +1,6 @@
 // src/translations.js
 export const resources = {
-    pl: {
+  pl: {
     translation: {
       // --- Navbar ---
       nav_start: 'Start',
@@ -91,7 +91,7 @@ export const resources = {
       footer_contact_cta: 'Zadzwoń, aby omówić projekt',
       footer_copyright: 'Tom-Buko Construction. Wszelkie prawa zastrzeżone.',
     }
-    },
+  },
 
   en: {
     translation: {
@@ -128,7 +128,7 @@ export const resources = {
       about_badge_title: 'Your Expert',
       about_badge_subtitle: 'in the Netherlands',
 
-      // --- Stats ---
+      // --- Stats --- 
       stats_title: 'Professional Approach',
       stats_description: 'I cooperate with construction and installation companies, ensuring the highest quality of plumbing services.',
       stats_1_value: '5',
@@ -158,37 +158,33 @@ export const resources = {
       together_via: 'Cooperation via',
       together_client: 'For client',
       together_direct: 'Direct client',
-    },
 
+      // --- Contact ---
+      contact_title: "Let's build together",
+      contact_subtitle: 'Contact me to discuss your project details.',
+      contact_phone_label: 'Phone',
+      contact_email_label: 'Email',
+      contact_area_label: 'Service area',
+      contact_area_value: 'Den Haag en Zuid Holland (ZZP / B2B projects)',
+      contact_form_name: 'Name / Company',
+      contact_form_phone: 'Phone number',
+      contact_form_email: 'Email address',
+      contact_form_message: 'Brief project description...',
+      contact_form_submit: 'Send inquiry',
 
-    // --- Contact ---
-    contact_title: "Let's build together",
-    contact_subtitle: 'Contact me to discuss your project details.',
-    contact_phone_label: 'Phone',
-    contact_email_label: 'Email',
-    contact_area_label: 'Service area',
-    contact_area_value: 'Den Haag en Zuid Holland (ZZP / B2B projects)',
-    contact_form_name: 'Name / Company',
-    contact_form_phone: 'Phone number',
-    contact_form_email: 'Email address',
-    contact_form_message: 'Brief project description...',
-    contact_form_submit: 'Send inquiry',
-
-    // --- Footer ---
-    footer_motto: 'Fluid solutions, solid foundations.',
-    footer_nav_title: 'Navigation',
-    footer_spec_title: 'Main specializations',
-    footer_spec_1: 'Plumbing for developers',
-    footer_spec_2: 'Installations in new buildings',
-    footer_spec_3: 'CH and DHW modernizations',
-    footer_spec_4: 'Comprehensive renovations',
-    footer_contact_title: 'Quick contact',
-    footer_contact_cta: 'Call to discuss your project',
-    footer_copyright: 'Tom-Buko Construction. All rights reserved.',
-  
-      
-    },
-  
+      // --- Footer ---
+      footer_motto: 'Fluid solutions, solid foundations.',
+      footer_nav_title: 'Navigation',
+      footer_spec_title: 'Main specializations',
+      footer_spec_1: 'Plumbing for developers',
+      footer_spec_2: 'Installations in new buildings',
+      footer_spec_3: 'CH and DHW modernizations',
+      footer_spec_4: 'Comprehensive renovations',
+      footer_contact_title: 'Quick contact',
+      footer_contact_cta: 'Call to discuss your project',
+      footer_copyright: 'Tom-Buko Construction. All rights reserved.',
+    }
+  },
 
   nl: {
     translation: {
@@ -251,12 +247,10 @@ export const resources = {
 
       // --- Together (Samenwerking) ---
       together_title: 'Onze Partners',
-     together_intro:'Ervaring opgedaan door samenwerking met toonaangevende bureaus en hoofdaannemers in Nederland.',
+      together_intro:'Ervaring opgedaan door samenwerking met toonaangevende bureaus en hoofdaannemers in Nederland.',
       together_via: 'Samenwerking via',
       together_client: 'Voor opdrachtgever',
       together_direct: 'Directe klant',
-     
-    },
 
       // --- Contact ---
       contact_title: 'Laten we samen bouwen',
@@ -282,6 +276,6 @@ export const resources = {
       footer_contact_title: 'Snel contact',
       footer_contact_cta: 'Bel om het project te bespreken',
       footer_copyright: 'Tom-Buko Construction. Alle rechten voorbehouden.',
-    
+    }
   }
 };

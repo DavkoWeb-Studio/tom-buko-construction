@@ -16,7 +16,7 @@ i18n
     // Nasze tłumaczenia
     resources,
     // Język domyślny, jeśli wykrywanie zawiedzie
-    fallbackLng: 'pl',
+    fallbackLng: 'nl',
     // Opcje detekcji języka
     detection: {
       order: ['cookie', 'localStorage', 'navigator', 'htmlTag'],
